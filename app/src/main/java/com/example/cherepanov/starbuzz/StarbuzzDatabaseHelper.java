@@ -19,7 +19,7 @@ public class StarbuzzDatabaseHelper extends SQLiteOpenHelper {
             + "NAME TEXT, "
             + "DESCRIPTION TEXT, "
             + "IMAGE_RESOURCE_ID INTEGER);";
-    private static final String addNewColumn = "ALTER TABLE DRINK ADD COLUMN FAVOURITE NUMERIC";
+    private static final String addNewColumn = "ALTER TABLE DRINK ADD COLUMN FAVORITE NUMERIC";
 
 
 
